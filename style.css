@@ -1,0 +1,488 @@
+body{background: linear-gradient(to bottom, #b3b3b3 0%, #ffffff 100%);
+}
+body:hover{
+    background: linear-gradient(to bottom, #003366 0%, #ffffff 100%);
+
+}
+
+
+*{
+   font-family: "Lora", serif;
+   color:#4b173b;
+  margin:0;
+   padding:0;
+   font-size: 30px;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+   
+}
+
+
+header{
+   background: linear-gradient(to bottom, #003366 0%, #ffffff 100%);
+   width: 100%;
+   position: fixed;
+   z-index:999;
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 100px;
+  
+}
+header:hover{
+
+  
+   background: linear-gradient(to bottom, #b3b3b3 0%, #ffffff 100%);
+}
+
+.logo{
+   text-decoration: none;
+   color: #5eb6b6;
+    text-transform:capitalize;
+ font-weight: 700;
+
+  
+}
+.logo:hover{
+   color:  #5d83a8;
+}
+
+.navbar a{
+   text-decoration: none;
+   color:#84c2c2;
+   padding-left:30px ;
+  
+    
+
+
+}
+
+.navbar a:hover {
+
+   color: #688097;
+}
+
+
+section{
+
+   padding: 100px 100px;
+}
+.mydata{
+   text-align: right;
+   width: 100%;
+   min-height: 50vh;
+   display: flex;
+   align-items: center;
+   
+}
+.mydata h2{
+   color:#3a755f;
+font-size: 2.5em;
+font-weight:900;
+animation-name:in;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-delay: 4s;
+}
+
+
+
+@keyframes in{
+
+
+
+0%{
+   
+color: #cc80ff;
+}
+
+25%{
+color:#ffe6ff;
+
+}
+
+50%{
+  color:#ffcccc; 
+}
+75%{
+   color: #e6ccff;
+}
+
+100%{
+
+   color:#99ddff;
+}
+}
+
+
+
+.mydata h3{
+   color:#3a755f;
+   font-size:2.2em;
+font-weight:700;
+margin-top: 10px;
+margin-bottom: 30px;
+
+animation-name:on;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-delay: 4s;
+
+
+}
+
+
+
+@keyframes on{
+
+
+
+   0%{
+       
+   color:#80ffcc;
+   }
+   
+   25%{
+   color:#ffff33;
+   
+   }
+   
+   50%{
+      color:#bfff00; 
+   }
+   75%{
+       color:#ff3333;
+   }
+   
+   100%{
+   
+       color: #ff9900;
+   }
+   }
+
+
+
+.one{
+   
+   text-align: center;
+   line-height: 100px;
+   font-size: 2.2em;
+   font-weight: 700;
+   
+}
+label{
+   color:#5bd7d7;
+}
+
+label:hover{
+color: #99ccff;
+
+padding: 30px;
+
+}
+input:focus{
+   color: #0000e6;
+   background: linear-gradient(to bottom, #66ffe6 1%, #ffffff 73%);
+   outline: #008000;
+}
+input:invalid{
+   background: linear-gradient(to bottom, #ff0000 21%, #ffffff 73%);
+}
+
+
+
+
+button{
+   color:#495239;
+   width: 200px;
+   background-color: #55bdbd;
+   border-radius: 30px;
+   transition: 0.7 ease;
+}
+button:hover{
+   color: #99ccff;
+   background-color: #2d862d;
+   transform: scale(1.1); 
+
+}
+footer{
+   animation-name:of;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-delay: 4s;
+
+
+}
+
+
+
+
+
+
+
+@keyframes of{
+
+
+
+   0%{
+       
+   color:#80ffcc;
+   }
+   
+   25%{
+   color:#ffff33;
+   
+   }
+   
+   50%{
+      color:#bfff00; 
+   }
+   75%{
+       color:#ff3333;
+   }
+   
+   100%{
+   
+       color: #ff9900;
+   }
+   }
+   p{
+       padding: 2em;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title{
+   color:#4b173b;
+   display: flex;
+   justify-content: center;
+   font-size: 3.2em;
+   font-weight: 800;
+   margin-bottom:30px;
+   animation-name:to;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-delay: 3s;
+
+}
+
+@keyframes to{
+
+
+
+   0%{
+       
+   color: #ff1a8c;
+   }
+   
+   25%{
+   color:#e6b800;
+   
+   }
+   
+   50%{
+      color: #00e600; 
+   }
+   75%{
+       color:#663300;
+   }
+   
+   100%{
+   
+       color:#003300;
+   }
+   }
+
+
+
+.content{
+   display: flex;
+   justify-content: center;
+   flex-direction:row;
+   flex-wrap: wrap;
+}
+.cards{
+  
+   background: linear-gradient(to bottom, #bfbfbf 0%, #ffffff 100%);
+   width:15.8em;
+
+   border-radius:10px;
+   padding:25px;
+   margin: 15px;
+   transition: 0.7 ease;
+}
+
+.cards:hover{
+   transform: scale(1.1);
+   background: linear-gradient(to bottom, #b3d9ff 0%, #ffffff 100%);
+}
+.icon{
+ 
+   text-align: center;}
+
+.info{
+   text-align: center;
+}
+
+.info h3{
+   font-size: 8.8;
+   font-weight: 700;
+margin: 10px;
+
+}
+
+
+
+
+
+
+
+.photo .pic{
+
+   text-align: center;
+}
+
+   
+      
+img{
+ 
+
+
+clip-path: circle(50% at 50%50%);
+
+}
+
+
+@media (max-width: 1080px){
+   body{
+      background-image:url("green.jpg");
+      padding: 0;
+      margin: 0;
+      height: 100%;
+    }
+    
+    
+    body:hover{
+    background-image:url("k4-scaled.jpg");
+    
+    } 
+  header{
+   background: linear-gradient(to bottom, #cc6666 0%, #ffffff 100%);
+      padding: 8px 20px; 
+  }
+  header:hover{
+   background: linear-gradient(to bottom, #86b300 0%, #ffffff 100%);
+  }
+  
+  .navbar a{
+  
+  
+      padding:8px;
+  }
+
+
+
+  
+  .title{
+      font-size: 1.2em;
+      
+  }
+  section{
+  padding: 50px 15px;
+  
+  
+  }
+  
+  
+  .mydata h2{
+   font-size: 1.2em;
+}
+.mydata h3{
+
+font-size: 1.5em;
+}
+  
+  .content{
+      flex-direction: column;
+      align-items:center;
+  }
+
+  .cards:hover{
+   background: linear-gradient(to bottom, #a77272 0%, #ffffff 100%);
+   
+  }
+  
+  .cards{
+
+      width:14.2em;
+      padding:20px;
+      margin: 15px;
+  }
+
+
+
+  img{
+    margin:20px ;
+padding: 30px;
+      width:100%;
+  }
+  
+  }
+  @media(max-width:480px){
+   body{
+      background: linear-gradient(to bottom, #ccf5ff 0%, #ffffff 100%);
+   }
+   body:hover{
+
+      background: linear-gradient(to bottom, #c2c2a3 0%, #ffffff 100%);
+   }
+   header{
+      background: linear-gradient(to bottom, #ccf5ff 0%, #ffffff 100%);
+      padding: 2px 10px;
+     
+   }
+   header:hover{
+      background: linear-gradient(to bottom, #c2c2a3 0%, #ffffff 100%);
+   }
+
+
+
+   .cards:hover{
+      background: linear-gradient(to bottom, #c2c2a3 0%, #ffffff 100%);
+   }
+    
+      .cards{
+         background: linear-gradient(to bottom, #ccf5ff 0%, #ffffff 100%);
+          width:10.2em;
+          padding:15px;
+          margin: 10px;
+      }
+      .mydata h2{
+         font-size: 1.2em;
+     }
+     .mydata h3{
+     
+     font-size: 1.5em;
+     }
+      
+      }
+      
+  
